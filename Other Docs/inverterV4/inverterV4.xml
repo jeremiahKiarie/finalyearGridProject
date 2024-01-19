@@ -1,0 +1,1335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\jerek\Documents\KiCad\inverterV4\inverterV4.kicad_sch</source>
+    <date>07/11/2023 15:54:52</date>
+    <tool>Eeschema (6.0.0)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>inverterV4.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>2200uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D17.0mm_P7.50mm</footprint>
+      <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="inverterV4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>87afbf9f-990e-4410-b6a5-e5460c013e3d</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>2200uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D17.0mm_P7.50mm</footprint>
+      <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="inverterV4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1fa0231b-3f9c-4753-9feb-68829c64a0d5</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>1000uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D13.0mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="inverterV4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1240573c-4e7d-4f02-92c6-de0d4d065494</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>100uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="inverterV4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>160982db-3bf5-46a0-9e7f-5948b4a58dd4</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>100uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="inverterV4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6c0bdc83-592c-4f4f-b71e-51fae1177bde</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>100uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="inverterV4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>184271d9-a07d-43f8-aa6c-9b4325d1440d</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>100uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="inverterV4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8c5ed5a7-5b12-4eac-b94c-6a1210e0c93f</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>1N4007</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/88503/1n4001.pdf</datasheet>
+      <libsource lib="Diode" part="1N4007" description="1000V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="inverterV4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d6687e73-9590-4b99-95b3-f5d96178c2a0</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="inverterV4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8b069f63-f084-463f-8d9d-051b570bf7df</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="inverterV4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e9619307-c265-40b8-8c58-84bf3cc7694e</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="inverterV4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bab76577-645e-42f7-bf9d-d0053cb299fa</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="inverterV4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>de96760b-a375-45d1-ad4f-cabc2d38a69c</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="inverterV4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1b77f77b-7c18-4beb-b5e2-94727574cd19</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="inverterV4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b3c5a2ea-b2b5-403b-ab34-44ac97abd9e5</tstamps>
+    </comp>
+    <comp ref="D8">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="inverterV4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a6eb53db-50d4-4940-b228-f61071b278ed</tstamps>
+    </comp>
+    <comp ref="D9">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="inverterV4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dd8885dc-5984-451b-b7a4-3d333082f6a0</tstamps>
+    </comp>
+    <comp ref="D10">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="inverterV4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ea993d8f-bf4a-4a63-aee9-9e0c4ad5205b</tstamps>
+    </comp>
+    <comp ref="D11">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="inverterV4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e25a2688-358b-43cd-a524-84b2561a3374</tstamps>
+    </comp>
+    <comp ref="D12">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="inverterV4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>388a1139-a6aa-4e29-9ea6-15d22f847339</tstamps>
+    </comp>
+    <comp ref="D13">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="inverterV4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c1a9b889-4d08-4311-b2d0-657a8b00ff08</tstamps>
+    </comp>
+    <comp ref="D14">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="inverterV4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c07a1f21-7fce-4ebb-9115-7cb6ec7269c3</tstamps>
+    </comp>
+    <comp ref="D15">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="inverterV4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a16ab996-bc2d-44ed-b9d9-1bbdba18f822</tstamps>
+    </comp>
+    <comp ref="D16">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="inverterV4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eca423e5-2810-46b8-bdf9-a2234289b4db</tstamps>
+    </comp>
+    <comp ref="D17">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="inverterV4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c4c27cb5-aefa-4efe-9d62-4ae646280b55</tstamps>
+    </comp>
+    <comp ref="D18">
+      <value>1N4007</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/88503/1n4001.pdf</datasheet>
+      <libsource lib="Diode" part="1N4007" description="1000V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="inverterV4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8241a26f-946a-4c55-b5ec-196178d64285</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_4mm</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="inverterV4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4ecd9bf1-3415-4867-877b-5f42eb51f4ab</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_4mm</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="inverterV4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e308daa3-2b6e-4c99-902f-de8881e49ad1</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_4mm</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="inverterV4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c2fc6ff5-7884-41a5-b03b-2e321116c68d</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_4mm</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="inverterV4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7b2cae72-b47e-497d-bca5-85bc13894e57</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Screw_Terminal_01x02</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-2-5.08_1x02_P5.08mm_Horizontal</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="inverterV4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>798c2275-9074-4d98-8e91-510cea3ba837</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Screw_Terminal_01x02</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-2-5.08_1x02_P5.08mm_Horizontal</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="inverterV4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3f81c273-fd70-4070-8509-680aac9d3cec</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Screw_Terminal_01x02</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-2-5.08_1x02_P5.08mm_Horizontal</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="inverterV4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>118b5e8f-9f28-4fe2-be44-53940a7b2ce3</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Screw_Terminal_01x02</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-2-5.08_1x02_P5.08mm_Horizontal</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="inverterV4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0d718285-e0c7-48aa-a22d-ff20e2accb9e</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>Screw_Terminal_01x02</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-2-5.08_1x02_P5.08mm_Horizontal</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="inverterV4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ef7ddfd2-c144-4634-a491-e25ee3f5853a</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>Screw_Terminal_01x02</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-2-5.08_1x02_P5.08mm_Horizontal</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="inverterV4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>51c3d465-568b-448f-af14-3358498eca4b</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>Screw_Terminal_01x02</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-2-5.08_1x02_P5.08mm_Horizontal</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="inverterV4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>adf52713-34dd-4bff-af4f-92c9dec7358b</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>Screw_Terminal_01x02</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-2-5.08_1x02_P5.08mm_Horizontal</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="inverterV4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>82f76f81-5329-43b2-9578-c73ed3bb4589</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>2N3904</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/2N3903-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="2N3904" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="inverterV4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>37104389-0ffa-4ff9-884c-f7e490c8571a</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>2N3904</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/2N3903-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="2N3904" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="inverterV4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>477cd0f8-555f-4188-b90a-e86273a55d9a</tstamps>
+    </comp>
+    <comp ref="Q3">
+      <value>2N3904</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/2N3903-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="2N3904" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="inverterV4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7e10a58d-fe7d-4568-996c-0de17e1e75d4</tstamps>
+    </comp>
+    <comp ref="Q4">
+      <value>2N3904</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/2N3903-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="2N3904" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="inverterV4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e150cf74-cec9-4279-8f6b-21825c622ebf</tstamps>
+    </comp>
+    <comp ref="Q5">
+      <value>IRF3205</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <datasheet>http://www.irf.com/product-info/datasheets/data/irf3205.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="IRF3205" description="110A Id, 55V Vds, Single N-Channel HEXFET Power MOSFET, 8mOhm Ron, TO-220AB"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="inverterV4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9c583b63-f3cc-4f2b-a977-9e8122c4dd61</tstamps>
+    </comp>
+    <comp ref="Q6">
+      <value>IRF3205</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <datasheet>http://www.irf.com/product-info/datasheets/data/irf3205.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="IRF3205" description="110A Id, 55V Vds, Single N-Channel HEXFET Power MOSFET, 8mOhm Ron, TO-220AB"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="inverterV4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ebd3fbea-f6ce-4598-a1c7-e964595c775b</tstamps>
+    </comp>
+    <comp ref="Q7">
+      <value>IRF3205</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <datasheet>http://www.irf.com/product-info/datasheets/data/irf3205.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="IRF3205" description="110A Id, 55V Vds, Single N-Channel HEXFET Power MOSFET, 8mOhm Ron, TO-220AB"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="inverterV4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c917b415-531e-4b20-a2a9-3a905692294c</tstamps>
+    </comp>
+    <comp ref="Q8">
+      <value>IRF3205</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <datasheet>http://www.irf.com/product-info/datasheets/data/irf3205.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="IRF3205" description="110A Id, 55V Vds, Single N-Channel HEXFET Power MOSFET, 8mOhm Ron, TO-220AB"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="inverterV4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>790c9d9a-10f9-4085-95b4-bce11182a48e</tstamps>
+    </comp>
+    <comp ref="Q9">
+      <value>IRF3205</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <datasheet>http://www.irf.com/product-info/datasheets/data/irf3205.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="IRF3205" description="110A Id, 55V Vds, Single N-Channel HEXFET Power MOSFET, 8mOhm Ron, TO-220AB"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="inverterV4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>496f621d-66af-426b-8ac8-57ced69a4b60</tstamps>
+    </comp>
+    <comp ref="Q10">
+      <value>IRF3205</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <datasheet>http://www.irf.com/product-info/datasheets/data/irf3205.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="IRF3205" description="110A Id, 55V Vds, Single N-Channel HEXFET Power MOSFET, 8mOhm Ron, TO-220AB"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="inverterV4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ee78b19f-18be-43f0-9902-d65c6e0c1a4e</tstamps>
+    </comp>
+    <comp ref="Q11">
+      <value>IRF3205</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <datasheet>http://www.irf.com/product-info/datasheets/data/irf3205.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="IRF3205" description="110A Id, 55V Vds, Single N-Channel HEXFET Power MOSFET, 8mOhm Ron, TO-220AB"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="inverterV4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d4a3e7cc-c5f3-4fab-b6a8-35ab436ac9f0</tstamps>
+    </comp>
+    <comp ref="Q12">
+      <value>IRF3205</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <datasheet>http://www.irf.com/product-info/datasheets/data/irf3205.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="IRF3205" description="110A Id, 55V Vds, Single N-Channel HEXFET Power MOSFET, 8mOhm Ron, TO-220AB"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="inverterV4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>92f4bc0b-9d46-4896-a079-21c805f63afb</tstamps>
+    </comp>
+    <comp ref="Q13">
+      <value>IRF3205</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <datasheet>http://www.irf.com/product-info/datasheets/data/irf3205.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="IRF3205" description="110A Id, 55V Vds, Single N-Channel HEXFET Power MOSFET, 8mOhm Ron, TO-220AB"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="inverterV4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1a6962db-0d7a-4ce6-9231-bb114692441d</tstamps>
+    </comp>
+    <comp ref="Q14">
+      <value>IRF3205</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <datasheet>http://www.irf.com/product-info/datasheets/data/irf3205.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="IRF3205" description="110A Id, 55V Vds, Single N-Channel HEXFET Power MOSFET, 8mOhm Ron, TO-220AB"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="inverterV4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a9e12d79-c513-4ee1-898f-01b23afc52e4</tstamps>
+    </comp>
+    <comp ref="Q15">
+      <value>IRF3205</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <datasheet>http://www.irf.com/product-info/datasheets/data/irf3205.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="IRF3205" description="110A Id, 55V Vds, Single N-Channel HEXFET Power MOSFET, 8mOhm Ron, TO-220AB"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="inverterV4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>41cff564-36fc-4163-9a20-c7aaf039d3c9</tstamps>
+    </comp>
+    <comp ref="Q16">
+      <value>IRF3205</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <datasheet>http://www.irf.com/product-info/datasheets/data/irf3205.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="IRF3205" description="110A Id, 55V Vds, Single N-Channel HEXFET Power MOSFET, 8mOhm Ron, TO-220AB"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="inverterV4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c8ca118e-5530-4ffc-a04d-cb5b07ad7b7c</tstamps>
+    </comp>
+    <comp ref="Q17">
+      <value>IRF3205</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <datasheet>http://www.irf.com/product-info/datasheets/data/irf3205.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="IRF3205" description="110A Id, 55V Vds, Single N-Channel HEXFET Power MOSFET, 8mOhm Ron, TO-220AB"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="inverterV4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>428b2574-84bb-460d-9664-7dba88b65cf7</tstamps>
+    </comp>
+    <comp ref="Q18">
+      <value>IRF3205</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <datasheet>http://www.irf.com/product-info/datasheets/data/irf3205.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="IRF3205" description="110A Id, 55V Vds, Single N-Channel HEXFET Power MOSFET, 8mOhm Ron, TO-220AB"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="inverterV4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>60044dc6-b3db-488a-ae1b-a81c8b363a64</tstamps>
+    </comp>
+    <comp ref="Q19">
+      <value>IRF3205</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <datasheet>http://www.irf.com/product-info/datasheets/data/irf3205.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="IRF3205" description="110A Id, 55V Vds, Single N-Channel HEXFET Power MOSFET, 8mOhm Ron, TO-220AB"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="inverterV4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c488471f-7dcf-49ec-83fd-f782ebf4dab9</tstamps>
+    </comp>
+    <comp ref="Q20">
+      <value>IRF3205</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <datasheet>http://www.irf.com/product-info/datasheets/data/irf3205.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="IRF3205" description="110A Id, 55V Vds, Single N-Channel HEXFET Power MOSFET, 8mOhm Ron, TO-220AB"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="inverterV4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b591a178-4a62-4386-9950-91100215a6c1</tstamps>
+    </comp>
+    <comp ref="Q21">
+      <value>2N3904</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/2N3903-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="2N3904" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="inverterV4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5c5d2d1b-a68c-4941-a54e-b92e14766369</tstamps>
+    </comp>
+    <comp ref="Q22">
+      <value>2N3904</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/2N3903-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="2N3904" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="inverterV4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2b1f470e-a2ce-41ec-88ec-8a471673e600</tstamps>
+    </comp>
+    <comp ref="Q23">
+      <value>2N3904</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/2N3903-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="2N3904" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="inverterV4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1b22d123-383c-4405-9e41-d7ac68b06c1b</tstamps>
+    </comp>
+    <comp ref="Q24">
+      <value>2N3904</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/2N3903-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="2N3904" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="inverterV4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>892c1933-d95e-4f7b-b80b-9fc314511830</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>200</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="inverterV4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9600911d-0df3-419b-8d4a-8d1432a7daf2</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>200</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="inverterV4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d86d8b4f-5074-4521-9411-fd143646e42a</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="inverterV4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b215767a-067e-40ee-9056-eb15be312448</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="inverterV4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>20cac1d4-83dd-4f77-9929-9e6bf46dc870</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="inverterV4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9ab3492b-45da-46c1-a759-3ad9aa758635</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="inverterV4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4840e9a3-038b-4e32-b8dc-584f04ea6219</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>8</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="inverterV4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ed1dd717-f46c-4066-bb14-412e63a65087</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>8</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="inverterV4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ebf4cdf8-3996-4e1e-b5a6-9902e7715c53</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>8</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="inverterV4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9e5e4bee-c034-451e-9764-418dd2313a5b</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>8</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="inverterV4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>87512477-1c10-4a24-95c5-8aafccf94091</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>8</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="inverterV4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d65fe5e9-076f-4514-893a-0db335b8dd64</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>8</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="inverterV4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>adae142d-8150-41d8-aff0-95781fb67096</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>8</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="inverterV4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dba797b7-fad6-4292-8618-e3ed97ff92c4</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>8</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="inverterV4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ef64c529-e253-4b27-adeb-7bb607700f9b</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="inverterV4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1758d2b5-17a2-40c8-b045-71749cdab46e</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="inverterV4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>678b4a5d-3a7c-4a1d-8301-165b7455c9f1</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="inverterV4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9ef301e9-de3f-4091-8433-49a2623fb6fb</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="inverterV4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>38a5128f-a392-44f1-ae2b-d4574a3e7c8e</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>8</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="inverterV4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0d0fbdda-2d7f-44fd-ab6b-27504f74413d</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>8</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="inverterV4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d62bbf6c-bcf2-4b7a-9470-80c869ae73db</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>8</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="inverterV4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>52539542-c3f1-419e-b5b0-64b56411a5fa</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>8</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="inverterV4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>343da834-167e-434b-aead-b1ed835f7d0e</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>8</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="inverterV4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0b9a4272-ae1e-47b0-9d1d-3d7f2d53a165</tstamps>
+    </comp>
+    <comp ref="R24">
+      <value>8</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="inverterV4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5b9b7b68-361e-4e4d-95c6-038b3d12735b</tstamps>
+    </comp>
+    <comp ref="R25">
+      <value>8</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="inverterV4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>12faef12-7f70-4a68-91db-4a34c813e9e1</tstamps>
+    </comp>
+    <comp ref="R26">
+      <value>8</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="inverterV4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>885277f2-085e-482d-869f-6be4a900a9a9</tstamps>
+    </comp>
+    <comp ref="R27">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="inverterV4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>32a53237-a3cd-4841-a124-bd22f563a006</tstamps>
+    </comp>
+    <comp ref="R28">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="inverterV4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>62f69e39-f4ca-4885-a667-b99708cf3680</tstamps>
+    </comp>
+    <comp ref="R29">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="inverterV4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8fc5e83a-5fe9-45bc-bc8c-55e6c09fef87</tstamps>
+    </comp>
+    <comp ref="R30">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="inverterV4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2f55a00c-7e9b-45b5-a56c-b13214df6d91</tstamps>
+    </comp>
+    <comp ref="R31">
+      <value>200</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="inverterV4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4c53a566-eaf8-4bcf-8d63-3e53155515ac</tstamps>
+    </comp>
+    <comp ref="R32">
+      <value>200</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="inverterV4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0979eeef-a979-471f-8c88-7e4de6605786</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Screw_Terminal_01x02">
+      <description>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized_US">
+      <description>Polarized capacitor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1N4007">
+      <description>1000V 1A General Purpose Rectifier Diode, DO-41</description>
+      <docs>http://www.vishay.com/docs/88503/1n4001.pdf</docs>
+      <footprints>
+        <fp>D*DO?41*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4007</field>
+        <field name="Footprint">Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</field>
+        <field name="Datasheet">http://www.vishay.com/docs/88503/1n4001.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1N4148">
+      <description>100V 0.15A standard switching diode, DO-35</description>
+      <docs>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</docs>
+      <footprints>
+        <fp>D*DO?35*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4148</field>
+        <field name="Footprint">Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</field>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="2N3904">
+      <description>0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92</description>
+      <docs>https://www.onsemi.com/pub/Collateral/2N3903-D.PDF</docs>
+      <footprints>
+        <fp>TO?92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">2N3904</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/2N3903-D.PDF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="IRF3205">
+      <description>110A Id, 55V Vds, Single N-Channel HEXFET Power MOSFET, 8mOhm Ron, TO-220AB</description>
+      <docs>http://www.irf.com/product-info/datasheets/data/irf3205.pdf</docs>
+      <footprints>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">IRF3205</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-220-3_Vertical</field>
+        <field name="Datasheet">http://www.irf.com/product-info/datasheets/data/irf3205.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Diode.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_BJT">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Transistor_BJT.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Transistor_FET.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R29" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R30" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="2" name="9">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R31" pin="1" pintype="passive"/>
+    </net>
+    <net code="3" name="11">
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R32" pin="1" pintype="passive"/>
+    </net>
+    <net code="4" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J7" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q1" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="Q10" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="Q11" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="Q12" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="Q13" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="Q14" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="Q15" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="Q16" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="Q2" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="Q21" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="Q22" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="Q23" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="Q24" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="Q3" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="Q4" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="Q9" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+    </net>
+    <net code="5" name="Net-(C4-Pad1)">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="6" name="Net-(C7-Pad1)">
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="D18" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R28" pin="1" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(D2-Pad1)">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q3" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q5" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(D3-Pad2)">
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q6" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(D4-Pad2)">
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q7" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(D5-Pad2)">
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q8" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+    </net>
+    <net code="12" name="Net-(D6-Pad1)">
+      <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D7" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D8" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D9" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q4" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(D6-Pad2)">
+      <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q9" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(D7-Pad2)">
+      <node ref="D7" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q10" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(D8-Pad2)">
+      <node ref="D8" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q11" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(D9-Pad2)">
+      <node ref="D9" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q12" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(D10-Pad1)">
+      <node ref="D10" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D11" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D12" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D13" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q21" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="R22" pin="1" pintype="passive"/>
+      <node ref="R27" pin="2" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(D10-Pad2)">
+      <node ref="D10" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q13" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(D11-Pad2)">
+      <node ref="D11" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q14" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(D12-Pad2)">
+      <node ref="D12" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q15" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(D13-Pad2)">
+      <node ref="D13" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q16" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R22" pin="2" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(D14-Pad1)">
+      <node ref="D14" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D15" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D16" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D17" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q22" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="R23" pin="1" pintype="passive"/>
+      <node ref="R24" pin="1" pintype="passive"/>
+      <node ref="R25" pin="1" pintype="passive"/>
+      <node ref="R26" pin="1" pintype="passive"/>
+      <node ref="R28" pin="2" pintype="passive"/>
+    </net>
+    <net code="23" name="Net-(D14-Pad2)">
+      <node ref="D14" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q17" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R23" pin="2" pintype="passive"/>
+    </net>
+    <net code="24" name="Net-(D15-Pad2)">
+      <node ref="D15" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q18" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R24" pin="2" pintype="passive"/>
+    </net>
+    <net code="25" name="Net-(D16-Pad2)">
+      <node ref="D16" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q19" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R25" pin="2" pintype="passive"/>
+    </net>
+    <net code="26" name="Net-(D17-Pad2)">
+      <node ref="D17" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q20" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R26" pin="2" pintype="passive"/>
+    </net>
+    <net code="27" name="Net-(Q1-Pad2)">
+      <node ref="Q1" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="28" name="Net-(Q1-Pad3)">
+      <node ref="Q1" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="Q3" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="29" name="Net-(Q2-Pad2)">
+      <node ref="Q2" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="30" name="Net-(Q2-Pad3)">
+      <node ref="Q2" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="Q4" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="31" name="Net-(Q21-Pad2)">
+      <node ref="Q21" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="Q23" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="R29" pin="2" pintype="passive"/>
+    </net>
+    <net code="32" name="Net-(Q22-Pad2)">
+      <node ref="Q22" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="Q24" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="R30" pin="2" pintype="passive"/>
+    </net>
+    <net code="33" name="Net-(Q23-Pad2)">
+      <node ref="Q23" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R31" pin="2" pintype="passive"/>
+    </net>
+    <net code="34" name="Net-(Q24-Pad2)">
+      <node ref="Q24" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R32" pin="2" pintype="passive"/>
+    </net>
+    <net code="35" name="Trn+">
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q10" pin="2" pinfunction="D" pintype="passive"/>
+      <node ref="Q11" pin="2" pinfunction="D" pintype="passive"/>
+      <node ref="Q12" pin="2" pinfunction="D" pintype="passive"/>
+      <node ref="Q5" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="Q6" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="Q7" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="Q8" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="Q9" pin="2" pinfunction="D" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+    </net>
+    <net code="36" name="Trn-">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D18" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J8" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J8" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q13" pin="2" pinfunction="D" pintype="passive"/>
+      <node ref="Q14" pin="2" pinfunction="D" pintype="passive"/>
+      <node ref="Q15" pin="2" pinfunction="D" pintype="passive"/>
+      <node ref="Q16" pin="2" pinfunction="D" pintype="passive"/>
+      <node ref="Q17" pin="2" pinfunction="D" pintype="passive"/>
+      <node ref="Q17" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="Q18" pin="2" pinfunction="D" pintype="passive"/>
+      <node ref="Q18" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="Q19" pin="2" pinfunction="D" pintype="passive"/>
+      <node ref="Q19" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="Q20" pin="2" pinfunction="D" pintype="passive"/>
+      <node ref="Q20" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="Q5" pin="2" pinfunction="D" pintype="passive"/>
+      <node ref="Q6" pin="2" pinfunction="D" pintype="passive"/>
+      <node ref="Q7" pin="2" pinfunction="D" pintype="passive"/>
+      <node ref="Q8" pin="2" pinfunction="D" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="R27" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+    </net>
+  </nets>
+</export>
